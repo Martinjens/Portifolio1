@@ -1,0 +1,25 @@
+fieldset{
+    color:white;
+    max-width: 50%;
+    justify-content: center;
+}
+
+body{
+    background: #232427;
+    color: white;
+}
+
+
+.fieldset-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.fieldset-container > * {
+   flex:1;
+}

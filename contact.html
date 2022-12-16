@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portifolio</title>
+    <link href="css/contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <fieldset>
+        <legend>Contact me</legend>
+        <div>
+          <label class="form-label">
+            Name (required)
+            <input class="form-input" name="name" id="name" />
+          </label>
+          <div class="error" id="nameError">
+            Enter your full name, min 5 characters
+          </div>
+        </div>
+
+        <div>
+          <label class="form-label">
+            Email (required)
+            <input class="form-input" name="email" id="email" />
+          </label>
+          <div class="error" id="emailError">Enter your email adresse</div>
+        </div>
+        <div>
+          <label class="form-label">
+            Message (required)
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="30"
+              class="form-input"
+            ></textarea>
+          </label>
+          </div>
+          <button>Submit</button>
+        </div>
+      </fieldset>
+    </main>
+  </body>
+  <footer></footer>
+</html>
